@@ -1,6 +1,6 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld",
     "typ": "Datová sada",
     "název": {
         "cs": "v01-d01",
@@ -51,7 +51,7 @@
     "distribuce": [
         {
             "typ": "Distribuce",
-            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/trig",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/trig",
             "soubor_ke_stažení": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig",
             "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig",
             "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
@@ -66,7 +66,7 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/hdt",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/hdt",
             "soubor_ke_stažení": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or.hdt",
             "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or.hdt",
             "typ_média": "http://www.iana.org/assignments/media-types/application/vnd.hdt",
@@ -81,7 +81,7 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/sparql",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/sparql",
             "název": {
                 "cs": "Apache Jena Fuseki SPARQL endpoint",
                 "en": "Apache Jena Fuseki SPARQL endpoint"
@@ -89,14 +89,14 @@
             "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
             "přístupová_služba": {
                 "typ": "Datová služba",
-                "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/sparql/přístupové-služby/sparql",
+                "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/sparql/přístupové-služby/sparql",
                 "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
                 "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
                 "název": {
                     "cs": "Apache Jena Fuseki SPARQL endpoint",
                     "en": "Apache Jena Fuseki SPARQL endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld",
                 "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
             },
             "podmínky_užití": {
@@ -109,7 +109,7 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/vsparql",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/vsparql",
             "název": {
                 "cs": "OpenLink Virtuoso SPARQL endpoint",
                 "en": "OpenLink Virtuoso SPARQL endpoint"
@@ -117,14 +117,14 @@
             "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
             "přístupová_služba": {
                 "typ": "Datová služba",
-                "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/vsparql/přístupové-služby/vsparql",
+                "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/vsparql/přístupové-služby/vsparql",
                 "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
                 "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
                 "název": {
                     "cs": "OpenLink Virtuoso SPARQL endpoint",
                     "en": "OpenLink Virtuoso SPARQL endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld",
                 "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
             },
             "podmínky_užití": {
@@ -137,7 +137,7 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/ldf",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld/distribuce/ldf",
             "název": {
                 "cs": "Linked Data Fragments (#LD) endpoint",
                 "en": "Linked Data Fragments (#LD) endpoint"
@@ -152,7 +152,7 @@
                     "cs": "Linked Data Fragments (#LD) endpoint",
                     "en": "Linked Data Fragments (#LD) endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01/v01-d01.jsonld",
                 "specifikace": "https://linkeddatafragments.org/specification/linked-data-fragments/"
             },
             "podmínky_užití": {
