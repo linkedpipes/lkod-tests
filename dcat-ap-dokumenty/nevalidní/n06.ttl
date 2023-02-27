@@ -1,0 +1,19 @@
+<https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/nevalidní/n06.ttl>
+        a       <http://www.w3.org/ns/dcat#Catalog> ;
+        <http://purl.org/dc/terms/description>
+                "LKOD DCAT-AP Dokumenty Nevalidní 06 - datová sada nelze načíst"@cs , "LKOD DCAT-AP Dokumenty Invalid 06 - dataset not dereferencable"@en ;
+        <http://purl.org/dc/terms/publisher>
+                <https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208> ;
+        <http://purl.org/dc/terms/title>
+                "LKOD DCAT-AP Dokumenty Nevalidní 06"@cs , "LKOD DCAT-AP Dokumenty Invalid 06"@en ;
+        <http://www.w3.org/ns/dcat#contactPoint>
+                [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                  <http://www.w3.org/2006/vcard/ns#fn>
+                          "Jakub Klímek"@en , "Jakub Klímek"@cs ;
+                  <http://www.w3.org/2006/vcard/ns#hasEmail>
+                          <mailto:jakub@jakubklimek.com>
+                ] ;
+        <http://www.w3.org/ns/dcat#dataset>
+                <https://blaaaaaaaaaaaa.tech/ttt> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <https://github.com/linkedpipes/lkod-tests/dcat-ap-dokumenty/nevalidní/n06.ttl> .
