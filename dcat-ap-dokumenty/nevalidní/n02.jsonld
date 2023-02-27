@@ -1,14 +1,14 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/nevalidní/n01.jsonld",
+    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/nevalidní/n02.jsonld",
     "typ": "Katalog",
     "název": {
-        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 01",
-        "en": "LKOD DCAT-AP Dokumenty Invalid 01"
+        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 02",
+        "en": "LKOD DCAT-AP Dokumenty Invalid 02"
     },
     "popis": {
-        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 01 - syntax error",
-        "en": "LKOD DCAT-AP Dokumenty Invalid 01 - description"
+        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 02 - invalid (null in language map)",
+        "en": null
     },
     "kontaktní_bod": {
         "typ": "Organizace",
@@ -18,9 +18,9 @@
         },
         "e-mail": "mailto:jakub@jakubklimek.com"
     },
-    "domovská_stránka": "https://github.com/linkedpipes/lkod-tests/dcat-ap-dokumenty/nevalidní/n01.jsonld",
+    "domovská_stránka": "https://github.com/linkedpipes/lkod-tests/dcat-ap-dokumenty/nevalidní/n02.jsonld",
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
     "datová_sada": [
-        "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata",
+        "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata"
     ]
 }

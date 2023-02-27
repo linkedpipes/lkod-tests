@@ -1,0 +1,167 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+    "typ": "Datová sada",
+    "název": {
+        "cs": "v01-d01",
+        "en": "v01-d01"
+    },
+    "popis": {
+        "cs": "v01-d01 -d",
+        "en": "v01-d01 -d"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "prvek_rúian": [
+        "https://linked.cuzk.cz/resource/ruian/stat/1"
+    ],
+    "geografické_území": [
+        "http://publications.europa.eu/resource/authority/country/CZE"
+    ],
+    "klíčové_slovo": {
+        "cs": [
+            "obchodní rejstřík",
+            "firmy"
+        ],
+        "en": [
+            "business register",
+            "companies"
+        ]
+    },
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "téma": [
+        "http://publications.europa.eu/resource/authority/data-theme/ECON",
+        "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    ],
+    "koncept_euroVoc": [
+        "http://eurovoc.europa.eu/813",
+        "http://eurovoc.europa.eu/1307",
+        "http://eurovoc.europa.eu/100152",
+        "http://eurovoc.europa.eu/4703"
+    ],
+    "specifikace": [
+        "https://stirdata.github.io/data-specification/"
+    ],
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Jakub Klímek"
+        },
+        "e-mail": "mailto:jakub@jakubklimek.com"
+    },
+    "distribuce": [
+        {
+            "typ": "Distribuce",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/trig",
+            "soubor_ke_stažení": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig",
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or-ebg.trig",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/hdt",
+            "soubor_ke_stažení": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or.hdt",
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/or.hdt",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/vnd.hdt",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/HDT",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/sparql",
+            "název": {
+                "cs": "Apache Jena Fuseki SPARQL endpoint",
+                "en": "Apache Jena Fuseki SPARQL endpoint"
+            },
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/sparql/přístupové-služby/sparql",
+                "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
+                "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
+                "název": {
+                    "cs": "Apache Jena Fuseki SPARQL endpoint",
+                    "en": "Apache Jena Fuseki SPARQL endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+                "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/vsparql",
+            "název": {
+                "cs": "OpenLink Virtuoso SPARQL endpoint",
+                "en": "OpenLink Virtuoso SPARQL endpoint"
+            },
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/vsparql/přístupové-služby/vsparql",
+                "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+                "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+                "název": {
+                    "cs": "OpenLink Virtuoso SPARQL endpoint",
+                    "en": "OpenLink Virtuoso SPARQL endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+                "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld/distribuce/ldf",
+            "název": {
+                "cs": "Linked Data Fragments (#LD) endpoint",
+                "en": "Linked Data Fragments (#LD) endpoint"
+            },
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/ldf/",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/přístupové-služby/ldf",
+                "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/ldf/",
+                "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/ldf/",
+                "název": {
+                    "cs": "Linked Data Fragments (#LD) endpoint",
+                    "en": "Linked Data Fragments (#LD) endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/validní/datasety/v01-d01.jsonld",
+                "specifikace": "https://linkeddatafragments.org/specification/linked-data-fragments/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        }
+    ]
+}
