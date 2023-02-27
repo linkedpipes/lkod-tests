@@ -1,0 +1,26 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://lkod.mff.cuni.cz/zdroj/katalog",
+    "typ": "Katalog",
+    "název": {
+        "cs": "Lokální katalog otevřených dat Matematicko-fyzikální fakulty Univerzity Karlovy",
+        "en": "Local open data catalog of the Faculty of Mathematics and Physics of the Charles University"
+    },
+    "popis": {
+        "cs": "Lokální katalog otevřených dat Matematicko-fyzikální fakulty Univerzity Karlovy",
+        "en": "Local open data catalog of the Faculty of Mathematics and Physics of the Charles University"
+    },
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Jakub Klímek",
+            "en": "Jakub Klímek"
+        },
+        "e-mail": "mailto:jakub.klimek@matfyz.cuni.cz"
+    },
+    "domovská_stránka": "https://lkod.mff.cuni.cz",
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "datová_sada": [
+        "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata"
+    ]
+}

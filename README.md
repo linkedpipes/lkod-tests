@@ -1,1 +1,1 @@
-# lkod-tests
+# Repozitář pro testovací LKODy pro validátor
