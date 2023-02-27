@@ -1,0 +1,24 @@
+{
+    "@context": "https://nevalidní.jsonld",
+    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/nevalidní/n04.jsonld",
+    "typ": "Katalog",
+    "název": {
+        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 04",
+        "en": "LKOD DCAT-AP Dokumenty Invalid 04"
+    },
+    "popis": {
+        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 04 - špatný kontext",
+        "en": "LKOD DCAT-AP Dokumenty Nevalidní 04 - bad context"
+    },
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Jakub Klímek",
+            "en": "Jakub Klímek"
+        },
+        "e-mail": "mailto:jakub@jakubklimek.com"
+    },
+    "domovská_stránka": "https://github.com/linkedpipes/lkod-tests/dcat-ap-dokumenty/nevalidní/n04.jsonld",
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "datová_sada": [ ]
+}

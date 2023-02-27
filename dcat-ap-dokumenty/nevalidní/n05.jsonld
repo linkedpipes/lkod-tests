@@ -1,0 +1,26 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://raw.githubusercontent.com/linkedpipes/lkod-tests/main/dcat-ap-dokumenty/nevalidní/n05.jsonld",
+    "typ": "Katalog",
+    "název": {
+        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 05",
+        "en": "LKOD DCAT-AP Dokumenty Invalid 05"
+    },
+    "popis": {
+        "cs": "LKOD DCAT-AP Dokumenty Nevalidní 05 - datová sada nelze načíst",
+        "en": "LKOD DCAT-AP Dokumenty Invalid 05 - dataset not dereferencable"
+    },
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Jakub Klímek",
+            "en": "Jakub Klímek"
+        },
+        "e-mail": "mailto:jakub@jakubklimek.com"
+    },
+    "domovská_stránka": "https://github.com/linkedpipes/lkod-tests/dcat-ap-dokumenty/nevalidní/n05.jsonld",
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "datová_sada": [
+        "https://blaaaaaaaaaaaa.tech/ttt"
+    ]
+}
