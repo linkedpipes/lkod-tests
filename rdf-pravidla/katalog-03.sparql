@@ -1,0 +1,9 @@
+#Je v katalogu český název?
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+ASK {
+  [] a dcat:Catalog ;
+    dcterms:title ?title .
+    FILTER(langMatches(LANG(?title), "cs"))
+}

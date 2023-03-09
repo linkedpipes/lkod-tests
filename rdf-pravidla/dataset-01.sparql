@@ -1,0 +1,5 @@
+#Je tam dataset?
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+ASK {
+  [] a dcat:Dataset
+}

@@ -1,0 +1,6 @@
+#Je tam nějaký katalog?
+
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+ASK {
+  [] a dcat:Catalog
+}
